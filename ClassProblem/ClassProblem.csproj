@@ -51,6 +51,7 @@
     <Compile Include="ReverseWord.cs" />
     <Compile Include="SumodArray.cs" />
     <Compile Include="UniqueElement.cs" />
+    <Compile Include="ZeroPattern.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

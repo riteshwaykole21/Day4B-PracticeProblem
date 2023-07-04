@@ -16,6 +16,7 @@ namespace ClassProblem
             Console.WriteLine("4 : Angle Pattern");
             Console.WriteLine("5 : Reverse Word In C#");
             Console.WriteLine("6 : Sum Of Array Element Of Array");
+            Console.WriteLine("7 : Zero Pattern Practice Problem");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -43,6 +44,10 @@ namespace ClassProblem
                 case 6:
                     SumodArray sum = new SumodArray();
                     sum.Numbers();
+                    break;
+                case 7:
+                    ZeroPattern Zero = new ZeroPattern();
+                    Zero.Pattern();
                     break;
             }
             Console.ReadLine();
