@@ -12,6 +12,7 @@ namespace ClassProblem
         {
             Console.WriteLine("1 : Duplicate element Of An Array");
             Console.WriteLine("2 : Unique Element Of A Array");
+            Console.WriteLine("3 : Frequancy Of A Element");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -23,6 +24,10 @@ namespace ClassProblem
                 case 2:
                     UniqueElement uniqueElement = new UniqueElement();
                     uniqueElement.Element();
+                    break;
+                case 3:
+                    MaxMin maxMin = new MaxMin();
+                    maxMin.Number();
                     break;
             }
             Console.ReadLine();
