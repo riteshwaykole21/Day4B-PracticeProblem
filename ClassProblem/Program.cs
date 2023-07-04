@@ -12,7 +12,8 @@ namespace ClassProblem
         {
             Console.WriteLine("1 : Duplicate element Of An Array");
             Console.WriteLine("2 : Unique Element Of A Array");
-            Console.WriteLine("3 : Frequancy Of A Element");
+            Console.WriteLine("3 : Max And Min");
+            Console.WriteLine("4 : Angle Pattern");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -28,6 +29,10 @@ namespace ClassProblem
                 case 3:
                     MaxMin maxMin = new MaxMin();
                     maxMin.Number();
+                    break;
+                case 4:
+                    AnglePattern pat = new AnglePattern();
+                    pat.Pattern();  
                     break;
             }
             Console.ReadLine();
