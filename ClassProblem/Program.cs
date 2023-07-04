@@ -14,6 +14,7 @@ namespace ClassProblem
             Console.WriteLine("2 : Unique Element Of A Array");
             Console.WriteLine("3 : Max And Min");
             Console.WriteLine("4 : Angle Pattern");
+            Console.WriteLine("5 : Reverse Word In C#");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -33,6 +34,10 @@ namespace ClassProblem
                 case 4:
                     AnglePattern pat = new AnglePattern();
                     pat.Pattern();  
+                    break;
+                case 5:
+                    ReverseWord rev = new ReverseWord();
+                    rev.Words();
                     break;
             }
             Console.ReadLine();
