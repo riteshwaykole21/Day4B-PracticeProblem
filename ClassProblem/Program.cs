@@ -15,6 +15,7 @@ namespace ClassProblem
             Console.WriteLine("3 : Max And Min");
             Console.WriteLine("4 : Angle Pattern");
             Console.WriteLine("5 : Reverse Word In C#");
+            Console.WriteLine("6 : Sum Of Array Element Of Array");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -38,6 +39,10 @@ namespace ClassProblem
                 case 5:
                     ReverseWord rev = new ReverseWord();
                     rev.Words();
+                    break;
+                case 6:
+                    SumodArray sum = new SumodArray();
+                    sum.Numbers();
                     break;
             }
             Console.ReadLine();
