@@ -15,7 +15,7 @@ namespace ClassProblem
             int count = 0;
             for (int i = 0; i < Sen2.Length; i++)
             {  
-                for (int j = i + 1; j < Sen2.Length; j++)
+                for (int j = 0; j < i; j++)
                 {
                     if (Sen2[i] == Sen2[j])
                     {
@@ -23,10 +23,8 @@ namespace ClassProblem
                         count++;
                     }
                 }
-                Console.WriteLine(count);
             }
-
-           
+            Console.WriteLine(count);
         }
     }
 }
